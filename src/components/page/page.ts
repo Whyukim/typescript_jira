@@ -14,7 +14,7 @@ type SectionContainerConstructor = {
 
 type OnCloseListener = () => void;
 
-// 예시 export class DarkPageComponent extends BaseComponent<HTMLElement> implements SectionContainer{}
+// Dependency Injection 예시 export class DarkPageComponent extends BaseComponent<HTMLElement> implements SectionContainer{}
 export class PageItemComponent
   extends BaseComponent<HTMLElement>
   implements SectionContainer
