@@ -49,6 +49,13 @@ class App {
       TextSectionInput,
       (input: TextSectionInput) => new TodoComponent(input.title, input.body)
     );
+
+    this.page.addChild(new TodoComponent("hello", "worldd"));
+    this.page.addChild(new TodoComponent("hello", "worldd"));
+    this.page.addChild(new TodoComponent("hello", "worldd"));
+    this.page.addChild(new TodoComponent("hello", "worldd"));
+    this.page.addChild(new TodoComponent("hello", "worldd"));
+    this.page.addChild(new TodoComponent("hello", "worldd"));
   }
 
   private bindElementToDialog<T extends (MediaData | TextData) & Component>(
